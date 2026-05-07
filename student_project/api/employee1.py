@@ -80,15 +80,7 @@ def delete_employment_api(employment_id:int,db:Session = Depends(get_db)):
             "message": "删除成功",
             "data": None}
 
-#恢复删除的就业信息数据
-@router.put("/restore/{employment_id}", response_model=dict)
-def restore_employment_api(employment_id:int,db:Session = Depends(get_db)):
-    EmploymentService.restore_employment_service(db,employment_id)
-    return {
-        "code": 200,
-        "message": "恢复成功",
-        "data": None
-    }
+
 
 
 
