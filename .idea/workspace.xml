@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca88b4da-c3b7-4d4a-93fc-7fa6ab34b162" name="更改" comment="">
+    <list default="true" id="ca88b4da-c3b7-4d4a-93fc-7fa6ab34b162" name="更改" comment="原始数据">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_project/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/api/stu_employment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/api/student_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/dao/stu_employment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/dao/student_dao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/student_project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/models/stu_employment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/models/student_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/schemas/stu_employment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/schemas/student_schemas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/service/stu_employment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student_project/service/student_service.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="huangyuanbo" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,24 +53,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="xuxiang" />
+                    <option name="lastUsedInstant" value="1778229124" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1778123040" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="huangyuanbo" />
-                    <option name="lastUsedInstant" value="1778122989" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="chenbingbing" />
-                    <option name="lastUsedInstant" value="1778122977" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="liguang" />
-                    <option name="lastUsedInstant" value="1778122953" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="wuxudong" />
-                    <option name="lastUsedInstant" value="1778122768" />
                   </RecentBranch>
                 </list>
               </option>
@@ -68,12 +69,12 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ximiannai233/student_project.git&quot;,
-    &quot;accountId&quot;: &quot;d958bed0-2839-4849-abd2-3eefb774e2cf&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ximiannai233/test.git",
+    "accountId": "d958bed0-2839-4849-abd2-3eefb774e2cf"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -102,7 +103,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "xuxiang",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/ai_study/项目学习/project/student_project",
     "node.js.detected.package.eslint": "true",
@@ -110,7 +111,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -150,6 +151,7 @@
       <workItem from="1778128049976" duration="278000" />
       <workItem from="1778129281344" duration="34000" />
       <workItem from="1778130485046" duration="159000" />
+      <workItem from="1778228509362" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="添加前端，修改代码，添加校验">
       <option name="closed" value="true" />
@@ -229,7 +231,8 @@
     <MESSAGE value="feat(project): 初始化学生管理系统项目结构&#10;&#10;- 添加 .gitignore 文件配置忽略虚拟环境、缓存、日志等文件&#10;- 创建 API 层包括班级、员工、成绩、学生和教师相关接口&#10;- 实现数据模型定义学生信息实体&#10;- 配置数据传输对象用于学生信息验证&#10;- 添加前端 JavaScript 应用实现完整的用户界面交互&#10;- 创建班级信息管理模块包含增删改查功能&#10;- 实现数据访问层封装数据库操作方法&#10;- 设计服务层处理业务逻辑和异常处理&#10;- 生成代码审查报告文档规范项目开发标准" />
     <MESSAGE value="docs(main): 添加热加载注释说明&#10;&#10;- 在主应用文件中添加热加载功能的注释说明" />
     <MESSAGE value="chore(ide): 添加项目模块配置文件&#10;&#10;- 创建 student_project.iml 模块配置文件&#10;- 配置 Python 模块类型和版本&#10;- 设置源代码目录路径&#10;- 排除虚拟环境目录&#10;- 配置 Python SDK 版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(ide): 添加项目模块配置文件&#10;&#10;- 创建 student_project.iml 模块配置文件&#10;- 配置 Python 模块类型和版本&#10;- 设置源代码目录路径&#10;- 排除虚拟环境目录&#10;- 配置 Python SDK 版本" />
+    <MESSAGE value="原始代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="原始代码" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/student_project$main.coverage" NAME="main 覆盖结果" MODIFIED="1778127452524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_project" />

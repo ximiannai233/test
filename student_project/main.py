@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from database import engine,Base
-from api import student_api,student_info,score_router,employee1,stu_employment,teacher,class_router
+from api import student_info,score_router,employee1,teacher,class_router
 
 
 #删除所有表
@@ -13,10 +13,10 @@ app = FastAPI(title="学生管理系统",version="2.0")
 app.include_router(student_info.router,tags=["学生管理"])
 app.include_router(score_router,tags=["学生成绩"])
 app.include_router(employee1.router,tags=["就业模块"])
-app.include_router(stu_employment.router,tags=["学生就业管理"])
+
 app.include_router(teacher.router,tags=["老师管理模块"])
 app.include_router(class_router,tags=["班级管理"])
-app.include_router(student_api.router,tags=["学生管理2"])
+
 
 #程序启动
 @app.get("/")
