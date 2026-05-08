@@ -1,10 +1,12 @@
 # 1. 忽略 PyCharm 的配置文件
 .idea/
+student_project/.idea/
 
 # 2. 忽略 Python 的虚拟环境 (非常重要，这里面全是库)
 .venv/
 venv/
 env/
+student_project/.venv/
 
 # 3. 忽略 Python 编译产生的缓存文件
 __pycache__/
