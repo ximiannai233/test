@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Date, DateTime, func
 from database import Base
-
+#创建数据表
 #定义ORM模型
 class Teacher_Model(Base):
     __tablename__ = 'teacher'
